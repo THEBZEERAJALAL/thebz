@@ -1,0 +1,2 @@
+step 1: seperate passwordless user created  with username razorthink 
+step 2: privilege to execute only netstat -tulnp,  ps -ef , df -h, fdisk -l  

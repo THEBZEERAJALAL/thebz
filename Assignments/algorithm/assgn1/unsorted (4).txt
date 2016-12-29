@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	
+	{
+            int array[]={0,1,1,1,2,3,4,4,4,5,6};
+           //you need to sort the array
+            int start = 0;
+            int end = 9;
+            int sum = 5;
+            int count = 0;
+           
+
+            while(start<end)
+            {
+                if (array[start] + array[end] > sum)
+                {
+                    end--;
+                }
+                else if (array[start] + array[end] < sum)
+                {
+                    start++;
+                }
+                else
+                {
+                    
+                    count++;
+                    //cout<<
+
+                    while(array[start] == array[++start])
+                    {
+                       
+                    }
+
+                    
+                }
+            }
+            std::cout << count << std::endl;
+        }
+	
+	
+	return 0;
+}

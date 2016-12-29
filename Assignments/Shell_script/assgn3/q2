@@ -1,0 +1,3 @@
+step1: 	installed tiger 
+step2: Setting up cron jobs for security auditing
+step3: send  audit report to our mail after every alternate days.

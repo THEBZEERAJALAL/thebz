@@ -1,0 +1,4 @@
+step1: Installed lynis.
+step2: Performing initial security auditing using lynis.
+step3: fixed the security risk
+step4: perform the auditing again.
